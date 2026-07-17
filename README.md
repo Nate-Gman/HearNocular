@@ -3,6 +3,7 @@
 
 A 100% standalone Python application that captures, processes, visualizes, and enhances distant audio in real time using an 11-stage DSP pipeline. Built as the software counterpart to the "AetherEar" parabolic directional-hearing concept device. Includes a fully interactive 3D hardware blueprint mode with perspective projection, exploded view, wireframe, auto-rotate, and per-part focus highlighting -- modeling 100+ mesh groups across 10 major hardware components.
 
+200m as the effective range for usable voice detection, with ~500m as the outer limit.
 ---
 
 ## Quick Start
@@ -34,6 +35,7 @@ Real-time frequency spectrum + spectrogram waterfall. Watch the voice band light
 - Spectrum snapshot (F2) for frozen comparison overlay
 
 ### 2. DIRECTION
+
 Spectral energy map. Voice-band frequency sub-bands mapped to a 360-degree compass for visualization.
 
 > **NOTE:** Single microphone -- NOT true direction-of-arrival. Shows voice-band frequency distribution on a compass.
